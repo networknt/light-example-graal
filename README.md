@@ -17,3 +17,19 @@ Some users are building application in kotlin, we need to make sure that service
 
 The light-4j service module uses reflection to handle dependency injection. We need to make sure that native-image tool can handle the reflection with a config file. For more details, please visit [reflection](reflection)
 
+### service-loader
+
+If you are using Java ServiceLoader to inject implementations for an interface, please visit [service-loader](service-loader)
+
+### system-properties
+
+For light-4j config, we need to pass the System Properties to the application during the runtime to change the behavior of the service. This example is use to demo the native executable with command line system properties. For more info, please visit [system-properties](system-properties)
+
+### logback
+
+This is the example that explores logback in the native executable. Most importantly, how to pass the config file to change the logging level by restarting the server. For more details, please visit [logback](logback)
+
+### util-logging
+
+As we found some issues with logback, this example explores java logging as it is supported by GraalVM. For more details, please visit [util-logging](util-logging)
+
