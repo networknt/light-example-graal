@@ -7,5 +7,5 @@ While learning the GraalVM, I have created a lot of examples to try out differnt
 
 ### hello-java
 
-This is a very simple Hello World example implemented in Java. For more info about this example, please visit [README](tree/master/hello-java)
+This is a very simple Hello World example implemented in Java. For more info about this example, please visit [README](hello-java)
 
