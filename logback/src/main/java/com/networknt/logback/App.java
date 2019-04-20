@@ -13,6 +13,8 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        logger.debug("Hello World!");
+        logger.debug("Debug");
+        logger.info("Info");
+        logger.error("Error");
     }
 }

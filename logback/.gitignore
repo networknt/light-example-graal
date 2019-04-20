@@ -2,5 +2,5 @@
 target/
 log/
 dependency-reduced-pom.xml
-logback-1.0-SNAPSHOT
+logback-1.0
 logback.iml

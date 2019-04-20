@@ -4,7 +4,7 @@
   <groupId>com.networknt.logback</groupId>
   <artifactId>logback</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>logback</name>
   <url>http://maven.apache.org</url>
   <properties>
